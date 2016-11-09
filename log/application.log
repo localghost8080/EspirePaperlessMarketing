@@ -1,0 +1,179 @@
+2016-11-07 23:15:43 ERROR EspirePaperless:31 - java.io.FileNotFoundException: application.properties (The system cannot find the file specified)
+2016-11-07 23:16:26 ERROR EspirePaperless:31 - java.io.FileNotFoundException: .\application.properties (The system cannot find the file specified)
+2016-11-07 23:16:55 ERROR EspirePaperless:31 - java.io.FileNotFoundException: \application.properties (The system cannot find the file specified)
+2016-11-07 23:21:00 INFO  Configuration:37 - {email.static.subject=Conference Invite || Next-Gen Secure Digital Platforms for Financial Services Industry, email.sender.address=webinar@espire.com, smtp.userid=webinar@espire.com, email.send.interval=1000, mail.smtp.host=localhost, mail.smtp.port=25, mail.smtp.auth=false, smtp.password=1nd1a@3241, email.template.filepath=}
+2016-11-07 23:21:00 INFO  EspirePaperless:18 - =============Strarting Application=============
+2016-11-07 23:21:00 INFO  EspirePaperless:19 - SMTP address :localhost
+2016-11-07 23:21:00 INFO  EspirePaperless:20 - Application properties :D:/EspirePaperlessMarketing/EspirePaperlessMarketing/src/main/java/application.properties
+2016-11-07 23:21:01 ERROR EmailJobFactory:37 - java.nio.file.AccessDeniedException: 
+2016-11-07 23:21:01 ERROR EmailJobFactory:56 - java.nio.file.AccessDeniedException: 
+2016-11-07 23:21:01 INFO  EmailJobExecutorImpl:16 - Starting job for JobId 1478541061003
+2016-11-07 23:21:01 INFO  EmailJobExecutorImpl:17 - Count of emails in job 0
+2016-11-07 23:24:18 INFO  Configuration:37 - {email.static.subject=Conference Invite || Next-Gen Secure Digital Platforms for Financial Services Industry, email.sender.address=webinar@espire.com, smtp.userid=webinar@espire.com, email.send.interval=1000, mail.smtp.host=localhost, mail.smtp.port=25, mail.smtp.auth=false, smtp.password=1nd1a@3241, email.template.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/emailer-secure-digital-platforms-for-financial-services-industry04Nov16.html}
+2016-11-07 23:24:18 INFO  EspirePaperless:18 - =============Strarting Application=============
+2016-11-07 23:24:18 INFO  EspirePaperless:19 - SMTP address :localhost
+2016-11-07 23:24:18 INFO  EspirePaperless:20 - Application properties :D:/EspirePaperlessMarketing/EspirePaperlessMarketing/src/main/java/application.properties
+2016-11-07 23:32:11 INFO  EspirePaperless:18 - =============Strarting Application=============
+2016-11-07 23:32:11 INFO  EspirePaperless:19 - SMTP address :localhost
+2016-11-07 23:32:11 INFO  EspirePaperless:20 - Application properties :D:/EspirePaperlessMarketing/EspirePaperlessMarketing/src/main/java/application.properties
+2016-11-07 23:32:11 INFO  EspirePaperless:21 - Other properties :{email.static.subject=Conference Invite || Next-Gen Secure Digital Platforms for Financial Services Industry, email.sender.address=webinar@espire.com, smtp.userid=webinar@espire.com, email.send.interval=1000, mail.smtp.host=localhost, mail.smtp.port=25, mail.smtp.auth=false, smtp.password=1nd1a@3241, email.template.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/emailer-secure-digital-platforms-for-financial-services-industry04Nov16.html, email.data.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/UserInfoForEmail.txt}
+2016-11-07 23:32:37 INFO  EmailJobExecutorImpl:16 - Starting job for JobId 1478541745487
+2016-11-07 23:32:37 INFO  EmailJobExecutorImpl:17 - Count of emails in job 5
+2016-11-07 23:32:38 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Name, trackingId=UniqueID, toAddress=Email]
+2016-11-07 23:36:37 INFO  EspirePaperless:18 - =============Strarting Application=============
+2016-11-07 23:36:37 INFO  EspirePaperless:19 - SMTP address :localhost
+2016-11-07 23:36:37 INFO  EspirePaperless:20 - Application properties :D:/EspirePaperlessMarketing/EspirePaperlessMarketing/src/main/java/application.properties
+2016-11-07 23:36:37 INFO  EspirePaperless:21 - Other properties :{email.static.subject=Conference Invite || Next-Gen Secure Digital Platforms for Financial Services Industry, email.sender.address=webinar@espire.com, smtp.userid=webinar@espire.com, email.send.interval=1000, mail.smtp.host=localhost, mail.smtp.port=25, mail.smtp.auth=false, smtp.password=1nd1a@3241, email.template.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/emailer-secure-digital-platforms-for-financial-services-industry04Nov16.html, email.data.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/UserInfoForEmail.txt}
+2016-11-07 23:37:31 INFO  EmailJobExecutorImpl:16 - Starting job for JobId 1478542002992
+2016-11-07 23:37:40 INFO  EmailJobExecutorImpl:17 - Count of emails in job 4
+2016-11-07 23:37:42 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Samrat Roy, trackingId=1, toAddress=samrat.roy@espire.com]
+2016-11-07 23:38:34 INFO  EspirePaperless:18 - =============Strarting Application=============
+2016-11-07 23:38:34 INFO  EspirePaperless:19 - SMTP address :localhost
+2016-11-07 23:38:34 INFO  EspirePaperless:20 - Application properties :D:/EspirePaperlessMarketing/EspirePaperlessMarketing/src/main/java/application.properties
+2016-11-07 23:38:34 INFO  EspirePaperless:21 - Other properties :{email.static.subject=Conference Invite || Next-Gen Secure Digital Platforms for Financial Services Industry, email.sender.address=webinar@espire.com, smtp.userid=webinar@espire.com, email.send.interval=1000, mail.smtp.host=localhost, mail.smtp.port=25, mail.smtp.auth=false, smtp.password=1nd1a@3241, email.template.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/emailer-secure-digital-platforms-for-financial-services-industry04Nov16.html, email.data.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/UserInfoForEmail.txt}
+2016-11-07 23:38:46 INFO  EmailJobExecutorImpl:16 - Starting job for JobId 1478542126361
+2016-11-07 23:38:46 INFO  EmailJobExecutorImpl:17 - Count of emails in job 4
+2016-11-07 23:38:47 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Samrat Roy, trackingId=1, toAddress=samrat.roy@espire.com]
+2016-11-07 23:44:10 INFO  EspirePaperless:18 - =============Strarting Application=============
+2016-11-07 23:44:10 INFO  EspirePaperless:19 - SMTP address :localhost
+2016-11-07 23:44:10 INFO  EspirePaperless:20 - Application properties :D:/EspirePaperlessMarketing/EspirePaperlessMarketing/src/main/java/application.properties
+2016-11-07 23:44:10 INFO  EspirePaperless:21 - Other properties :{email.static.subject=Conference Invite || Next-Gen Secure Digital Platforms for Financial Services Industry, email.sender.address=webinar@espire.com, smtp.userid=webinar@espire.com, email.send.interval=1000, mail.smtp.host=localhost, mail.smtp.port=25, mail.smtp.auth=false, smtp.password=1nd1a@3241, email.template.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/emailer-secure-digital-platforms-for-financial-services-industry04Nov16.html, email.data.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/UserInfoForEmail.txt}
+2016-11-07 23:44:10 INFO  EmailJobExecutorImpl:16 - Starting job for JobId 1478542450448
+2016-11-07 23:44:10 INFO  EmailJobExecutorImpl:17 - Count of emails in job 4
+2016-11-07 23:44:11 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Samrat Roy, trackingId=1, toAddress=samrat.roy@espire.com]
+2016-11-07 23:44:15 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Om Pandey, trackingId=2, toAddress=om.pandey@espire.com]
+2016-11-07 23:44:17 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Anand Singh Bhandari, trackingId=3, toAddress=anand.bhandari@espire.com]
+2016-11-07 23:44:19 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Anand, trackingId=4, toAddress=g.asbhandari@gmail.com]
+2016-11-07 23:44:49 INFO  EspirePaperless:18 - =============Strarting Application=============
+2016-11-07 23:44:49 INFO  EspirePaperless:19 - SMTP address :localhost
+2016-11-07 23:44:49 INFO  EspirePaperless:20 - Application properties :D:/EspirePaperlessMarketing/EspirePaperlessMarketing/src/main/java/application.properties
+2016-11-07 23:44:49 INFO  EspirePaperless:21 - Other properties :{email.static.subject=Conference Invite || Next-Gen Secure Digital Platforms for Financial Services Industry, email.sender.address=webinar@espire.com, smtp.userid=webinar@espire.com, email.send.interval=1000, mail.smtp.host=localhost, mail.smtp.port=25, mail.smtp.auth=false, smtp.password=1nd1a@3241, email.template.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/emailer-secure-digital-platforms-for-financial-services-industry04Nov16.html, email.data.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/UserInfoForEmail.txt}
+2016-11-07 23:44:49 INFO  EmailJobExecutorImpl:16 - Starting job for JobId 1478542489571
+2016-11-07 23:44:49 INFO  EmailJobExecutorImpl:17 - Count of emails in job 4
+2016-11-07 23:44:50 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Samrat Roy, trackingId=1, toAddress=samrat.roy@espire.com]
+2016-11-07 23:44:51 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Om Pandey, trackingId=2, toAddress=om.pandey@espire.com]
+2016-11-07 23:44:52 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Anand Singh Bhandari, trackingId=3, toAddress=anand.bhandari@espire.com]
+2016-11-07 23:44:53 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Anand, trackingId=4, toAddress=g.asbhandari@gmail.com]
+2016-11-07 23:46:45 INFO  EspirePaperless:18 - =============Strarting Application=============
+2016-11-07 23:46:45 INFO  EspirePaperless:19 - SMTP address :localhost
+2016-11-07 23:46:45 INFO  EspirePaperless:20 - Application properties :D:/EspirePaperlessMarketing/EspirePaperlessMarketing/src/main/java/application.properties
+2016-11-07 23:46:45 INFO  EspirePaperless:21 - Other properties :{email.static.subject=Conference Invite || Next-Gen Secure Digital Platforms for Financial Services Industry, email.sender.address=webinar@espire.com, smtp.userid=webinar@espire.com, email.send.interval=1000, mail.smtp.host=localhost, mail.smtp.port=25, mail.smtp.auth=false, smtp.password=1nd1a@3241, email.template.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/emailer-secure-digital-platforms-for-financial-services-industry04Nov16.html, email.data.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/UserInfoForEmail.txt}
+2016-11-07 23:46:45 INFO  EmailJobExecutorImpl:16 - Starting job for JobId 1478542605748
+2016-11-07 23:46:45 INFO  EmailJobExecutorImpl:17 - Count of emails in job 4
+2016-11-07 23:46:46 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Samrat Roy, trackingId=1, toAddress=samrat.roy@espire.com]
+2016-11-07 23:47:19 INFO  EspirePaperless:18 - =============Strarting Application=============
+2016-11-07 23:47:19 INFO  EspirePaperless:19 - SMTP address :localhost
+2016-11-07 23:47:19 INFO  EspirePaperless:20 - Application properties :D:/EspirePaperlessMarketing/EspirePaperlessMarketing/src/main/java/application.properties
+2016-11-07 23:47:19 INFO  EspirePaperless:21 - Other properties :{email.static.subject=Conference Invite || Next-Gen Secure Digital Platforms for Financial Services Industry, email.sender.address=webinar@espire.com, smtp.userid=webinar@espire.com, email.send.interval=1000, mail.smtp.host=localhost, mail.smtp.port=25, mail.smtp.auth=false, smtp.password=1nd1a@3241, email.template.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/emailer-secure-digital-platforms-for-financial-services-industry04Nov16.html, email.data.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/UserInfoForEmail.txt}
+2016-11-07 23:47:19 INFO  EmailJobExecutorImpl:16 - Starting job for JobId 1478542639440
+2016-11-07 23:47:19 INFO  EmailJobExecutorImpl:17 - Count of emails in job 4
+2016-11-07 23:47:20 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Samrat Roy, trackingId=1, toAddress=samrat.roy@espire.com]
+2016-11-07 23:47:21 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Om Pandey, trackingId=2, toAddress=om.pandey@espire.com]
+2016-11-07 23:47:22 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Anand Singh Bhandari, trackingId=3, toAddress=anand.bhandari@espire.com]
+2016-11-07 23:47:23 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Anand, trackingId=4, toAddress=g.asbhandari@gmail.com]
+2016-11-07 23:51:00 INFO  EspirePaperless:18 - =============Strarting Application=============
+2016-11-07 23:51:00 INFO  EspirePaperless:19 - SMTP address :localhost
+2016-11-07 23:51:00 INFO  EspirePaperless:20 - Application properties :D:/EspirePaperlessMarketing/EspirePaperlessMarketing/src/main/java/application.properties
+2016-11-07 23:51:00 INFO  EspirePaperless:21 - Other properties :{email.static.subject=Conference Invite || Next-Gen Secure Digital Platforms for Financial Services Industry, email.sender.address=webinar@espire.com, smtp.userid=webinar@espire.com, email.send.interval=1000, mail.smtp.host=localhost, mail.smtp.port=25, mail.smtp.auth=false, smtp.password=1nd1a@3241, email.template.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/emailer-secure-digital-platforms-for-financial-services-industry04Nov16.html, email.data.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/UserInfoForEmail.txt}
+2016-11-07 23:51:00 INFO  EmailJobExecutorImpl:16 - Starting job for JobId 1478542860219
+2016-11-07 23:51:00 INFO  EmailJobExecutorImpl:17 - Count of emails in job 4
+2016-11-07 23:51:01 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Samrat Roy, trackingId=1, toAddress=samrat.roy@espire.com]
+2016-11-07 23:51:02 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Om Pandey, trackingId=2, toAddress=om.pandey@espire.com]
+2016-11-07 23:51:03 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Anand Singh Bhandari, trackingId=3, toAddress=anand.bhandari@espire.com]
+2016-11-07 23:51:04 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Anand, trackingId=4, toAddress=g.asbhandari@gmail.com]
+2016-11-07 23:52:53 INFO  EspirePaperless:18 - =============Strarting Application=============
+2016-11-07 23:52:53 INFO  EspirePaperless:19 - SMTP address :localhost
+2016-11-07 23:52:53 INFO  EspirePaperless:20 - Application properties :D:/EspirePaperlessMarketing/EspirePaperlessMarketing/src/main/java/application.properties
+2016-11-07 23:52:53 INFO  EspirePaperless:21 - Other properties :{email.static.subject=Conference Invite || Next-Gen Secure Digital Platforms for Financial Services Industry, email.sender.address=webinar@espire.com, smtp.userid=webinar@espire.com, email.send.interval=1000, mail.smtp.host=localhost, mail.smtp.port=25, mail.smtp.auth=false, smtp.password=1nd1a@3241, email.template.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/emailer-secure-digital-platforms-for-financial-services-industry04Nov16-Copy.html, email.data.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/UserInfoForEmail.txt}
+2016-11-07 23:52:53 INFO  EmailJobExecutorImpl:16 - Starting job for JobId 1478542973465
+2016-11-07 23:52:53 INFO  EmailJobExecutorImpl:17 - Count of emails in job 4
+2016-11-07 23:52:54 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Samrat Roy, trackingId=1, toAddress=samrat.roy@espire.com]
+2016-11-07 23:52:55 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Om Pandey, trackingId=2, toAddress=om.pandey@espire.com]
+2016-11-07 23:52:56 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Anand Singh Bhandari, trackingId=3, toAddress=anand.bhandari@espire.com]
+2016-11-07 23:52:57 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Anand, trackingId=4, toAddress=g.asbhandari@gmail.com]
+2016-11-07 23:55:21 INFO  EspirePaperless:18 - =============Strarting Application=============
+2016-11-07 23:55:21 INFO  EspirePaperless:19 - SMTP address :localhost
+2016-11-07 23:55:21 INFO  EspirePaperless:20 - Application properties :D:/EspirePaperlessMarketing/EspirePaperlessMarketing/src/main/java/application.properties
+2016-11-07 23:55:21 INFO  EspirePaperless:21 - Other properties :{email.static.subject=Conference Invite || Next-Gen Secure Digital Platforms for Financial Services Industry, email.sender.address=webinar@espire.com, smtp.userid=webinar@espire.com, email.send.interval=1000, mail.smtp.host=localhost, mail.smtp.port=25, mail.smtp.auth=false, smtp.password=1nd1a@3241, email.template.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/samrat.html, email.data.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/UserInfoForEmail.txt}
+2016-11-07 23:55:21 INFO  EmailJobExecutorImpl:16 - Starting job for JobId 1478543121682
+2016-11-07 23:55:21 INFO  EmailJobExecutorImpl:17 - Count of emails in job 4
+2016-11-07 23:55:22 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Samrat Roy, trackingId=1, toAddress=samrat.roy@espire.com]
+2016-11-07 23:55:23 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Om Pandey, trackingId=2, toAddress=om.pandey@espire.com]
+2016-11-07 23:55:24 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Anand Singh Bhandari, trackingId=3, toAddress=anand.bhandari@espire.com]
+2016-11-07 23:55:25 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Anand, trackingId=4, toAddress=g.asbhandari@gmail.com]
+2016-11-07 23:55:25 INFO  EspirePaperless:30 - =============Terminating Application=============
+2016-11-07 23:56:34 INFO  EspirePaperless:18 - =============Strarting Application=============
+2016-11-07 23:56:34 INFO  EspirePaperless:19 - SMTP address :localhost
+2016-11-07 23:56:34 INFO  EspirePaperless:20 - Application properties :D:/EspirePaperlessMarketing/EspirePaperlessMarketing/src/main/java/application.properties
+2016-11-07 23:56:34 INFO  EspirePaperless:21 - Other properties :{email.static.subject=Conference Invite || Next-Gen Secure Digital Platforms for Financial Services Industry, email.sender.address=webinar@espire.com, smtp.userid=webinar@espire.com, email.send.interval=1000, mail.smtp.host=localhost, mail.smtp.port=25, mail.smtp.auth=false, smtp.password=1nd1a@3241, email.template.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/samrat.html, email.data.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/UserInfoForEmail.txt}
+2016-11-07 23:57:24 INFO  EmailJobExecutorImpl:16 - Starting job for JobId 1478543234955
+2016-11-07 23:57:24 INFO  EmailJobExecutorImpl:17 - Count of emails in job 4
+2016-11-07 23:57:25 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Samrat Roy, trackingId=1, toAddress=samrat.roy@espire.com]
+2016-11-07 23:57:27 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Om Pandey, trackingId=2, toAddress=om.pandey@espire.com]
+2016-11-07 23:57:33 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Anand Singh Bhandari, trackingId=3, toAddress=anand.bhandari@espire.com]
+2016-11-07 23:57:35 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Anand, trackingId=4, toAddress=g.asbhandari@gmail.com]
+2016-11-07 23:57:36 INFO  EspirePaperless:30 - =============Terminating Application=============
+2016-11-07 23:58:22 INFO  EspirePaperless:18 - =============Strarting Application=============
+2016-11-07 23:58:22 INFO  EspirePaperless:19 - SMTP address :localhost
+2016-11-07 23:58:22 INFO  EspirePaperless:20 - Application properties :D:/EspirePaperlessMarketing/EspirePaperlessMarketing/src/main/java/application.properties
+2016-11-07 23:58:22 INFO  EspirePaperless:21 - Other properties :{email.static.subject=Conference Invite || Next-Gen Secure Digital Platforms for Financial Services Industry, email.sender.address=webinar@espire.com, smtp.userid=webinar@espire.com, email.send.interval=1000, mail.smtp.host=localhost, mail.smtp.port=25, mail.smtp.auth=false, smtp.password=1nd1a@3241, email.template.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/samrat.html, email.data.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/UserInfoForEmail.txt}
+2016-11-07 23:58:22 INFO  EmailJobExecutorImpl:16 - Starting job for JobId 1478543302777
+2016-11-07 23:58:22 INFO  EmailJobExecutorImpl:17 - Count of emails in job 4
+2016-11-07 23:58:23 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Samrat Roy, trackingId=1, toAddress=samrat.roy@espire.com]
+2016-11-07 23:58:24 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Om Pandey, trackingId=2, toAddress=om.pandey@espire.com]
+2016-11-07 23:58:25 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Anand Singh Bhandari, trackingId=3, toAddress=anand.bhandari@espire.com]
+2016-11-07 23:58:27 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Anand, trackingId=4, toAddress=g.asbhandari@gmail.com]
+2016-11-07 23:58:27 INFO  EspirePaperless:30 - =============Terminating Application=============
+2016-11-07 23:59:01 INFO  EspirePaperless:18 - =============Strarting Application=============
+2016-11-07 23:59:01 INFO  EspirePaperless:19 - SMTP address :localhost
+2016-11-07 23:59:01 INFO  EspirePaperless:20 - Application properties :D:/EspirePaperlessMarketing/EspirePaperlessMarketing/src/main/java/application.properties
+2016-11-07 23:59:01 INFO  EspirePaperless:21 - Other properties :{email.static.subject=Conference Invite || Next-Gen Secure Digital Platforms for Financial Services Industry, email.sender.address=webinar@espire.com, smtp.userid=webinar@espire.com, email.send.interval=1000, mail.smtp.host=localhost, mail.smtp.port=25, mail.smtp.auth=false, smtp.password=1nd1a@3241, email.template.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/emailer-secure-digital-platforms-for-financial-services-industry04Nov16-Copy.html, email.data.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/UserInfoForEmail.txt}
+2016-11-07 23:59:01 INFO  EmailJobExecutorImpl:16 - Starting job for JobId 1478543341534
+2016-11-07 23:59:01 INFO  EmailJobExecutorImpl:17 - Count of emails in job 4
+2016-11-07 23:59:02 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Samrat Roy, trackingId=1, toAddress=samrat.roy@espire.com]
+2016-11-07 23:59:03 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Om Pandey, trackingId=2, toAddress=om.pandey@espire.com]
+2016-11-07 23:59:04 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Anand Singh Bhandari, trackingId=3, toAddress=anand.bhandari@espire.com]
+2016-11-07 23:59:05 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Anand, trackingId=4, toAddress=g.asbhandari@gmail.com]
+2016-11-07 23:59:05 INFO  EspirePaperless:30 - =============Terminating Application=============
+2016-11-08 15:26:43 INFO  EspirePaperless:18 - =============Strarting Application=============
+2016-11-08 15:26:43 INFO  EspirePaperless:19 - SMTP address :outlook.espire.com
+2016-11-08 15:26:43 INFO  EspirePaperless:20 - Application properties :D:/EspirePaperlessMarketing/EspirePaperlessMarketing/src/main/java/application.properties
+2016-11-08 15:26:43 INFO  EspirePaperless:21 - Other properties :{email.static.subject=Conference Invite || Next-Gen Secure Digital Platforms for Financial Services Industry, email.sender.address=webinar@espire.com, smtp.userid=webinar@espire.com, email.send.interval=1000, mail.smtp.host=outlook.espire.com, mail.smtp.port=25, mail.smtp.auth=true, smtp.password=1nd1a@3241, email.template.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/emailer-secure-digital-platforms-for-financial-services-industry04Nov16-Copy.html, email.data.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/UserInfoForEmail.txt}
+2016-11-08 15:26:43 INFO  EmailJobExecutorImpl:16 - Starting job for JobId 1478599003326
+2016-11-08 15:26:43 INFO  EmailJobExecutorImpl:17 - Count of emails in job 4
+2016-11-08 15:26:44 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Samrat Roy, trackingId=1, toAddress=samrat.roy@espire.com]
+2016-11-08 15:35:10 INFO  EspirePaperless:18 - =============Strarting Application=============
+2016-11-08 15:35:10 INFO  EspirePaperless:19 - SMTP address :null
+2016-11-08 15:35:10 INFO  EspirePaperless:20 - Application properties :D:/EspirePaperlessMarketing/EspirePaperlessMarketing/src/main/java/application.properties
+2016-11-08 15:35:10 INFO  EspirePaperless:21 - Other properties :{email.static.subject=Conference Invite || Next-Gen Secure Digital Platforms for Financial Services Industry, email.sender.address=webinar@espire.com, smtp.userid=webinar@espire.com, email.send.interval=1000, SmtpServer.EnableSsl=false, SmtpServer.UseDefaultCredentials=false, SmtpServer.Host="smtp.office365.com", mail.smtp.auth=true, SmtpServer.Port=587, smtp.password=1nd1a@3241, email.template.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/emailer-secure-digital-platforms-for-financial-services-industry04Nov16-Copy.html, email.data.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/UserInfoForEmail.txt}
+2016-11-08 15:35:10 INFO  EmailJobExecutorImpl:16 - Starting job for JobId 1478599510347
+2016-11-08 15:35:10 INFO  EmailJobExecutorImpl:17 - Count of emails in job 4
+2016-11-08 15:35:11 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Samrat Roy, trackingId=1, toAddress=samrat.roy@espire.com]
+2016-11-08 15:36:45 INFO  EspirePaperless:18 - =============Strarting Application=============
+2016-11-08 15:36:45 INFO  EspirePaperless:19 - SMTP address :outlook.espire.com
+2016-11-08 15:36:45 INFO  EspirePaperless:20 - Application properties :D:/EspirePaperlessMarketing/EspirePaperlessMarketing/src/main/java/application.properties
+2016-11-08 15:36:45 INFO  EspirePaperless:21 - Other properties :{email.static.subject=Conference Invite || Next-Gen Secure Digital Platforms for Financial Services Industry, email.sender.address=webinar@espire.com, smtp.userid=webinar@espire.com, email.send.interval=1000, mail.smtp.host=outlook.espire.com, mail.smtp.port=587, mail.smtp.auth=true, smtp.password=1nd1a@3241, email.template.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/emailer-secure-digital-platforms-for-financial-services-industry04Nov16-Copy.html, email.data.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/UserInfoForEmail.txt}
+2016-11-08 15:36:45 INFO  EmailJobExecutorImpl:16 - Starting job for JobId 1478599605349
+2016-11-08 15:36:45 INFO  EmailJobExecutorImpl:17 - Count of emails in job 4
+2016-11-08 15:36:46 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Samrat Roy, trackingId=1, toAddress=samrat.roy@espire.com]
+2016-11-08 15:53:50 INFO  EspirePaperless:18 - =============Strarting Application=============
+2016-11-08 15:53:50 INFO  EspirePaperless:19 - SMTP address :outlook.espire.com
+2016-11-08 15:53:50 INFO  EspirePaperless:20 - Application properties :D:/EspirePaperlessMarketing/EspirePaperlessMarketing/src/main/java/application.properties
+2016-11-08 15:53:50 INFO  EspirePaperless:21 - Other properties :{email.static.subject=Conference Invite || Next-Gen Secure Digital Platforms for Financial Services Industry, email.sender.address=samrat.roy@espire.com, smtp.userid=samrat.roy@espire.com, email.send.interval=1000, mail.smtp.host=outlook.espire.com, mail.smtp.port=587, mail.smtp.auth=true, smtp.password=Espire@007, email.template.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/emailer-secure-digital-platforms-for-financial-services-industry04Nov16-Copy.html, email.data.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/UserInfoForEmail.txt}
+2016-11-08 15:53:50 INFO  EmailJobExecutorImpl:16 - Starting job for JobId 1478600630253
+2016-11-08 15:53:50 INFO  EmailJobExecutorImpl:17 - Count of emails in job 4
+2016-11-08 15:53:51 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Samrat Roy, trackingId=1, toAddress=samrat.roy@espire.com]
+2016-11-08 16:14:23 INFO  EspirePaperless:18 - =============Strarting Application=============
+2016-11-08 16:14:23 INFO  EspirePaperless:19 - SMTP address :outlook.espire.com
+2016-11-08 16:14:23 INFO  EspirePaperless:20 - Application properties :D:/EspirePaperlessMarketing/EspirePaperlessMarketing/src/main/java/application.properties
+2016-11-08 16:14:23 INFO  EspirePaperless:21 - Other properties :{email.static.subject=Conference Invite || Next-Gen Secure Digital Platforms for Financial Services Industry, email.sender.address=samrat.roy@espire.com, smtp.userid=samrat.roy@espire.com, email.send.interval=1000, mail.smtp.host=outlook.espire.com, mail.smtp.port=587, mail.smtp.auth=true, smtp.password=Espire@007, email.template.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/emailer-secure-digital-platforms-for-financial-services-industry04Nov16-Copy.html, email.data.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/UserInfoForEmail.txt}
+2016-11-08 16:14:24 INFO  EmailJobExecutorImpl:16 - Starting job for JobId 1478601864079
+2016-11-08 16:14:24 INFO  EmailJobExecutorImpl:17 - Count of emails in job 4
+2016-11-08 16:14:25 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Samrat Roy, trackingId=1, toAddress=samrat.roy@espire.com]
+2016-11-08 16:19:26 INFO  EspirePaperless:18 - =============Strarting Application=============
+2016-11-08 16:19:26 INFO  EspirePaperless:19 - SMTP address :outlook.espire.com
+2016-11-08 16:19:26 INFO  EspirePaperless:20 - Application properties :D:/EspirePaperlessMarketing/EspirePaperlessMarketing/src/main/java/application.properties
+2016-11-08 16:19:26 INFO  EspirePaperless:21 - Other properties :{email.static.subject=Conference Invite || Next-Gen Secure Digital Platforms for Financial Services Industry, email.sender.address=samrat.roy@espire.com, smtp.userid=samrat.roy@espire.com, email.send.interval=1000, mail.smtp.host=outlook.espire.com, mail.smtp.port=25, mail.smtp.auth=true, mail.smtp.user=samrat.roy@espire.com, smtp.password=Espire@007, email.template.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/emailer-secure-digital-platforms-for-financial-services-industry04Nov16-Copy.html, mail.smtp.password=RXNwaXJlQDAwNw==, email.data.filepath=C:/Users/samrat.roy/Desktop/UserInfoForEmail/UserInfoForEmail.txt}
+2016-11-08 16:19:26 INFO  EmailJobExecutorImpl:16 - Starting job for JobId 1478602166103
+2016-11-08 16:19:26 INFO  EmailJobExecutorImpl:17 - Count of emails in job 4
+2016-11-08 16:19:27 INFO  EmailJobExecutorImpl:30 - Sending email :EmailJob [name=Samrat Roy, trackingId=1, toAddress=samrat.roy@espire.com]
