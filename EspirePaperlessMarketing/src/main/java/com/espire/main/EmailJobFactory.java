@@ -6,8 +6,6 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import org.apache.log4j.Logger;
 
@@ -15,28 +13,10 @@ import com.espire.configuration.Configuration;
 import com.espire.job.BatchEmailJob;
 import com.espire.job.EmailJob;
 
-public class EmailJobFactory {
+public class EmailJobFactory extends JobFactory {
 
 	final static Logger log = Logger.getLogger(EmailJobFactory.class);	
 
-	/**
-	 * This method creates a list of jobs based on the static configuration provided in the properties
-	 * @return
-	 */
-	private String emailTemplate ="";
-	
-	public EmailJobFactory(){
-		
-		try{
-		
-			emailTemplate =new String(Files.readAllBytes(Paths.get(Configuration.getProperty("email.template.filepath"))));
-			
-		}
-		catch(IOException ie){
-			log.error(ie);
-		}
-	}
-	
 	public BatchEmailJob createEmailJobs(){
 		BatchEmailJob batchJob = new BatchEmailJob();
 		batchJob.setBatchJobId(""+new Date().getTime());
@@ -56,23 +36,5 @@ public class EmailJobFactory {
 
 		return batchJob;
 	}
-
-	public BatchEmailJob createPartialEmailJobs(int index){
-		return null;
-	}
-	
-	private void parseEmailBody(EmailJob emailJob){
-		
-		String readTemplate = new String(emailTemplate);
-		Pattern namepattern = Pattern.compile("%name%");
-		Matcher matcher = namepattern.matcher(readTemplate);
-		readTemplate=matcher.replaceAll(emailJob.getName());
-		Pattern idPattern = Pattern.compile("%uniqueid%");
-		matcher = idPattern.matcher(readTemplate);
-		readTemplate=matcher.replaceAll(emailJob.getTrackingId());
-		emailJob.setEmailBody(readTemplate);
-	}
-
-
 
 }

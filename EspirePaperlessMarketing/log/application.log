@@ -97,3 +97,67 @@
 2016-11-09 10:41:23 INFO  EmailJobExecutorImpl:18 - Count of emails in job 1
 2016-11-09 10:41:24 INFO  EmailJobExecutorImpl:31 - Sending email :EmailJob [name=Samrat Roy, trackingId=1, toAddress=samrat.roy@espire.com]
 2016-11-09 10:41:31 INFO  EspirePaperless:28 - =============Terminating Application=============
+2016-11-11 19:44:19 INFO  EspirePaperless:17 - =============Strarting Application=============
+2016-11-11 19:45:16 INFO  EspirePaperless:17 - =============Strarting Application=============
+2016-11-11 19:46:00 INFO  EspirePaperless:17 - =============Strarting Application=============
+2016-11-11 19:46:00 INFO  EspirePaperless:18 - Application properties :./application.properties
+2016-11-11 19:46:00 ERROR EspirePaperless:31 - java.io.FileNotFoundException: .\application.properties (The system cannot find the file specified)
+2016-11-11 19:46:28 INFO  EspirePaperless:17 - =============Strarting Application=============
+2016-11-11 19:46:28 INFO  EspirePaperless:18 - Application properties :../application.properties
+2016-11-11 19:46:28 ERROR EspirePaperless:31 - java.io.FileNotFoundException: ..\application.properties (The system cannot find the file specified)
+2016-11-11 19:46:51 INFO  EspirePaperless:17 - =============Strarting Application=============
+2016-11-11 19:46:51 INFO  EspirePaperless:18 - Application properties :../../application.properties
+2016-11-11 19:46:51 ERROR EspirePaperless:31 - java.io.FileNotFoundException: ..\..\application.properties (The system cannot find the file specified)
+2016-11-11 19:48:06 INFO  EspirePaperless:17 - =============Strarting Application=============
+2016-11-11 19:48:06 INFO  EspirePaperless:18 - Application properties :../../../application.properties
+2016-11-11 19:48:06 ERROR EspirePaperless:31 - java.io.FileNotFoundException: ..\..\..\application.properties (The system cannot find the file specified)
+2016-11-11 19:48:25 INFO  EspirePaperless:17 - =============Strarting Application=============
+2016-11-11 19:48:25 INFO  EspirePaperless:18 - Application properties :../../../../application.properties
+2016-11-11 19:48:25 ERROR EspirePaperless:31 - java.io.FileNotFoundException: ..\..\..\..\application.properties (The system cannot find the file specified)
+2016-11-11 19:55:02 INFO  EspirePaperless:13 - =============Strarting Application=============
+2016-11-11 19:55:02 INFO  EspirePaperless:20 - .classpath
+2016-11-11 19:55:02 INFO  EspirePaperless:20 - .project
+2016-11-11 19:55:02 INFO  EspirePaperless:20 - .settings
+2016-11-11 19:55:02 INFO  EspirePaperless:20 - log
+2016-11-11 19:55:02 INFO  EspirePaperless:20 - pom.xml
+2016-11-11 19:55:02 INFO  EspirePaperless:20 - src
+2016-11-11 19:55:02 INFO  EspirePaperless:20 - target
+2016-11-11 19:55:02 INFO  EspirePaperless:34 - =============Terminating Application=============
+2016-11-11 19:56:39 INFO  EspirePaperless:15 - =============Strarting Application=============
+2016-11-11 19:56:39 INFO  EspirePaperless:17 - Application properties :classpath:application.properties
+2016-11-11 19:56:39 ERROR EspirePaperless:30 - java.io.FileNotFoundException: classpath:application.properties (The system cannot find the file specified)
+2016-11-11 19:57:08 INFO  EspirePaperless:15 - =============Strarting Application=============
+2016-11-11 19:57:08 INFO  EspirePaperless:17 - Application properties :./src/main/java/application.properties
+2016-11-11 19:57:08 INFO  Configuration:31 - email.static.subject : Conference Invite || Next-Gen Secure Digital Platforms for Financial Services Industry
+2016-11-11 19:57:08 INFO  Configuration:31 - email.sender.address : 
+2016-11-11 19:57:08 INFO  Configuration:31 - email.send.interval : 1000
+2016-11-11 19:57:08 INFO  Configuration:31 - mail.smtp.from : 
+2016-11-11 19:57:08 INFO  Configuration:31 - mail.smtp.host : smtp.office365.com
+2016-11-11 19:57:08 INFO  Configuration:31 - mail.smtp.starttls.enable : true
+2016-11-11 19:57:08 INFO  Configuration:31 - mail.smtp.port : 587
+2016-11-11 19:57:08 INFO  Configuration:31 - mail.smtp.auth : TRUE
+2016-11-11 19:57:08 INFO  Configuration:31 - mail.smtp.user : 
+2016-11-11 19:57:08 INFO  Configuration:31 - email.template.filepath : C:/Users/samrat.roy/Desktop/UserInfoForEmail/emailer-secure-digital-platforms-for-financial-services-industry04Nov16.html
+2016-11-11 19:57:08 INFO  Configuration:31 - mail.smtp.password : 
+2016-11-11 19:57:08 INFO  Configuration:31 - email.data.filepath : G:/EPM.txt
+2016-11-11 19:57:08 ERROR EmailJobFactory:36 - java.nio.file.NoSuchFileException: C:\Users\samrat.roy\Desktop\UserInfoForEmail\emailer-secure-digital-platforms-for-financial-services-industry04Nov16.html
+2016-11-11 19:57:08 INFO  EspirePaperless:27 - =============Terminating Application=============
+2016-11-11 21:31:24 INFO  EspirePaperless:12 - =============Strarting Application=============
+2016-11-11 21:31:24 INFO  EspirePaperless:14 - Application properties :./src/main/java/application.properties
+2016-11-11 21:31:24 INFO  EspirePaperless:15 - G:\JAVA8Ws\EspirePaperlessMarketing\EspirePaperlessMarketing\.
+2016-11-12 11:55:25 INFO  EspirePaperless:17 - =============Strarting Application=============
+2016-11-12 11:55:25 INFO  EspirePaperless:19 - Application properties :./src/main/java/application.properties
+2016-11-12 11:55:25 INFO  Configuration:29 - email.static.subject : Conference Invite || Next-Gen Secure Digital Platforms for Financial Services Industry
+2016-11-12 11:55:25 INFO  Configuration:29 - email.sender.address : 
+2016-11-12 11:55:25 INFO  Configuration:29 - email.send.interval : 1000
+2016-11-12 11:55:25 INFO  Configuration:29 - mail.smtp.from : 
+2016-11-12 11:55:25 INFO  Configuration:29 - mail.smtp.host : smtp.office365.com
+2016-11-12 11:55:25 INFO  Configuration:29 - mail.smtp.starttls.enable : true
+2016-11-12 11:55:25 INFO  Configuration:29 - mail.smtp.port : 587
+2016-11-12 11:55:25 INFO  Configuration:29 - mail.smtp.auth : TRUE
+2016-11-12 11:55:25 INFO  Configuration:29 - mail.smtp.user : 
+2016-11-12 11:55:25 INFO  Configuration:29 - email.template.filepath : C:/Users/samrat.roy/Desktop/UserInfoForEmail/emailer-secure-digital-platforms-for-financial-services-industry04Nov16.html
+2016-11-12 11:55:25 INFO  Configuration:29 - mail.smtp.password : 
+2016-11-12 11:55:25 INFO  Configuration:29 - email.data.filepath : G:/EPM.txt
+2016-11-12 11:55:25 ERROR JobFactory:28 - java.nio.file.NoSuchFileException: C:\Users\samrat.roy\Desktop\UserInfoForEmail\emailer-secure-digital-platforms-for-financial-services-industry04Nov16.html
+2016-11-12 11:55:25 INFO  EspirePaperless:29 - =============Terminating Application=============

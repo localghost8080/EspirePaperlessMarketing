@@ -1,4 +1,4 @@
-package com.espire.jobexecutor;
+package com.espire.mailengine;
 
 import java.util.Date;
 
@@ -15,11 +15,11 @@ import org.apache.log4j.Logger;
 import com.espire.configuration.Configuration;
 import com.espire.job.EmailJob;
 
-public class SendEmailEngine {
+public class SendEmailEngine implements MailEngine {
 
 	Session session;
 	final static Logger log = Logger.getLogger(SendEmailEngine.class);
-	protected void  sendEmail(EmailJob emailJob){
+	public void  sendEmail(EmailJob emailJob){
 		 session = Session.getInstance(Configuration.getProperties(),
 				  new javax.mail.Authenticator() {
 					protected PasswordAuthentication getPasswordAuthentication() {

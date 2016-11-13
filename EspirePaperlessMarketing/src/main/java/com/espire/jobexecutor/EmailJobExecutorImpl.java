@@ -5,11 +5,15 @@ import org.apache.log4j.Logger;
 import com.espire.configuration.Configuration;
 import com.espire.job.BatchEmailJob;
 import com.espire.job.EmailJob;
+import com.espire.mailengine.MailEngine;
 
 public class EmailJobExecutorImpl implements EmailJobExecutor {
 	
 	final static Logger log = Logger.getLogger(EmailJobExecutorImpl.class);	
-	SendEmailEngine engine = new SendEmailEngine();
+	MailEngine engine ;
+	public EmailJobExecutorImpl(MailEngine engineType){
+		engine =  engineType;
+	}
 	
 	@Override
 	public void sendEmail(BatchEmailJob batchJob){

@@ -10,8 +10,6 @@ import java.util.Properties;
 import org.apache.commons.codec.binary.Base64;
 import org.apache.log4j.Logger;
 
-import com.espire.main.EspirePaperless;
-
 public class Configuration {
 	
 	private static Properties properties;
